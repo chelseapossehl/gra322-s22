@@ -9,6 +9,7 @@ body {
 }
 
 h1 {
+    color: #fff;
     font-weight: 500;
 }
 
@@ -19,4 +20,8 @@ h1 {
 
 .grid > * {
     grid-column: main;
+}
+
+header {
+    background-color: var(--gray-dark);
 }
