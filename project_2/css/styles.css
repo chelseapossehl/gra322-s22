@@ -25,3 +25,8 @@ h1 {
 header {
     background-color: var(--gray-dark);
 }
+
+.overview {
+    background-color: var(--gray);
+    color: #fff;
+}
