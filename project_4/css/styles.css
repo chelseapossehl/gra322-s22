@@ -1,0 +1,55 @@
+body {
+    background-color:var(--tan-light);
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    }
+
+html {
+    --brown: #5C453C;
+    --orange: #F37300;
+    --tan: #EDC7A4;
+    --tan-light: #FDF3E9;
+    --white: #FFF;    
+}
+
+h2 {
+    color:var(--brown);
+    font-size: 30px;
+}
+
+.hero {
+    background-image: url('https://unsplash.com/photos/XtUd5SiX464');
+    
+  }
+
+.hero-paragraph {
+    color:#5C453C;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.hero-title {
+    color: #5C453C;
+    font-size: 72px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
+}
+
+.grid > * {
+    grid-column: main;
+}
+
+@media screen and (min-width: 800px ) {
+    .two-column {
+        display: grid;
+        grid-gap: 3rem;
+        grid-template-columns: 1fr 1fr;
+    }
+}
