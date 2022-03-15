@@ -17,8 +17,7 @@ h2 {
 }
 
 .hero {
-    background-image: url('https://unsplash.com/photos/XtUd5SiX464');
-    
+    background-image: url('https://unsplash.com/photos/XtUd5SiX464');  
   }
 
 .hero-paragraph {
@@ -45,6 +44,27 @@ h2 {
 .grid > * {
     grid-column: main;
 }
+
+table {
+    background: #5C453C;
+    color:var(--white);
+    width: 100%;
+  }
+  
+  @media screen and (min-width: 800px) {
+    section {
+      display: grid;
+      gap: 30px;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .table-2 {
+      margin-top: 3rem;
+    }
+
+    
+  }
+  
 
 @media screen and (min-width: 800px ) {
     .two-column {
