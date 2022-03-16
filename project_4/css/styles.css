@@ -11,6 +11,12 @@ html {
     --white: #FFF;    
 }
 
+hr.one {
+  border-color:#F37300;
+  margin-left: -70px;
+  max-width: 570px;
+}
+
 .buttons {
     color:var(--brown);
     font-size: 30px;
@@ -55,11 +61,31 @@ html {
     grid-column: main;
 }
 
+.title-one {
+  font-size: 30px;
+}
+
+.menu-one {
+  line-height: 52px;
+}
+
+.price {
+  text-align: right;
+}
+
+.size-one {
+  text-align: right;
+}
+
+
 table {
     background: #5C453C;
     color:var(--white);
     width: 100%;
-  }
+    padding: 30px;
+    margin-left: 30px;
+    max-width: 575px;
+}
   
   @media screen and (min-width: 800px) {
     section {
@@ -68,9 +94,9 @@ table {
       grid-template-columns: 1fr 1fr;
     }
   
-    .table-2 {
-      margin-top: 3rem;
-    }
+.table-2 {
+  margin-top: 3rem;
+}
 
     
   }
