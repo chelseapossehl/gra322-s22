@@ -28,7 +28,9 @@ hr.one {
 }
 
 .hero {
-  background-image: url("../https://unsplash.com/photos/XtUd5SiX464"); 
+  background-image: url("../img/coffee_mug.jpg"); 
+  background-size: cover;
+  padding-bottom: 3rem;
   }
 
 .hero-paragraph {
@@ -37,18 +39,20 @@ hr.one {
     font-weight: 400;
     letter-spacing: 1px;
     line-height: 1.5;
-    margin-bottom: 90px;
-    margin-left:-30px;
-    margin-top: 30px;
-    width: 520px;
     
 }
+
+.hero-text {
+  max-width: 520px;
+}
+
 .hero-title {
     color: #5C453C;
     font-size: 72px;
     font-weight: 600;
     letter-spacing: 1px;
-    margin-left: -30px;
+    border-bottom: 2px solid var(--orange);
+    margin-bottom: 1rem;
 
 }
 
@@ -87,19 +91,17 @@ table {
     max-width: 575px;
 }
   
-  @media screen and (min-width: 800px) {
-    section {
-      display: grid;
-      gap: 30px;
-      grid-template-columns: 1fr 1fr;
-    }
-  
-.table-2 {
-  margin-top: 3rem;
-}
+@media screen and (min-width: 800px) {
+  .tables {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }  
+  .table-2 {
+    margin-top: 3rem;
+  }
 
     
-  }
+}
   
 h3 {
   color:#FFF;
