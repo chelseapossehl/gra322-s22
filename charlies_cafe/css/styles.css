@@ -1,7 +1,7 @@
 body {
     background-color:var(--tan-light);
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-    }
+}
 
 html {
     --brown: #5C453C;
@@ -11,35 +11,28 @@ html {
     --white: #FFF;    
 }
 
-hr.one {
-  border-color:#F37300;
-  margin-left: -70px;
-  max-width: 570px;
-}
-
 .buttons {
-    color:var(--brown);
-    font-size: 30px;
-    margin-right: 30px;
-    margin-top: 60px;
-    text-align: right;
-    text-transform: uppercase;
-    word-spacing: 30px;
+  color: var(--brown);
+  font-size: 30px;
+  margin-right: 30px;
+  margin-top: 60px;
+  text-align: right;
+  text-transform: uppercase;
+  word-spacing: 30px;
 }
 
 .hero {
-  background-image: url("../img/coffee_mug.jpg"); 
+  background-image: url("../img/coffee_muggg.jpg"); 
   background-size: cover;
   padding-bottom: 3rem;
-  }
+}
 
 .hero-paragraph {
-    color:#5C453C;
-    font-size: 25px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 1.5;
-    
+  color:#5C453C;
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.5;  
 }
 
 .hero-text {
@@ -47,90 +40,66 @@ hr.one {
 }
 
 .hero-title {
-    color: #5C453C;
-    font-size: 72px;
-    font-weight: 600;
-    letter-spacing: 1px;
-    border-bottom: 2px solid var(--orange);
-    margin-bottom: 1rem;
-
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
-}
-
-.grid > * {
-    grid-column: main;
-}
-
-.title-one {
-  font-size: 30px;
-}
-
-.menu-one {
-  line-height: 52px;
-}
-
-.price {
-  text-align: right;
-}
-
-.size-one {
-  text-align: right;
-}
-
-
-table {
-    background: #5C453C;
-    color:var(--white);
-    width: 100%;
-    padding: 30px;
-    margin-left: 30px;
-    max-width: 575px;
-}
-  
-@media screen and (min-width: 800px) {
-  .tables {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }  
-  .table-2 {
-    margin-top: 3rem;
-  }
-
-    
-}
-  
-h3 {
-  color:#FFF;
+  color: #5C453C;
   font-size: 72px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--orange);
+  margin-bottom: 1rem;
 
 }
 
-h4 {
-  color:#FFF;
-  font-size: 30px;
-  width: 400px;
-}
-
-h5 {
+h3 {
   color:#5C453C;
   font-size: 40px;
   margin-left: 30px;
   margin-bottom: 30px; 
 }
 
-footer {
-  background: url(https://www.pexels.com/photo/brown-cocoa-34085/);
+h4 {
+  color:#FFF;
+  font-size: 72px;
+
 }
+
+h5 {
+  color:#FFF;
+  font-size: 30px;
+  width: 400px;
+}
+
+footer {
+  background-image: url("../img/coffee_beanss.jpg"); 
+  background-size: cover;
+  padding-bottom: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end];
+}
+
+.grid > * {
+  grid-column: main;
+}
+
+.table-container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0, 1280px) [main-end] minmax(1rem, 1fr) [full-end]; 
+}
+ 
+@media screen and (min-width: 768px) {
+  .table-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: #5C453C;
+    color:var(--white);
+  }
+}
+
   
 
-@media screen and (min-width: 800px ) {
-    .two-column {
-        display: grid;
-        grid-gap: 3rem;
-        grid-template-columns: 1fr 1fr;
-    }
-}
