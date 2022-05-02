@@ -35,7 +35,7 @@ header {
   background-size: cover;
 }
 
-.hero-paragraph {
+.wrapper {
   color:#5C453C;
   font-size: 25px;
   font-weight: 400;
@@ -43,6 +43,7 @@ header {
   line-height: 1.5; 
   margin-left:30px; 
   max-width: 520px;
+  width:100%;
   padding-bottom: 85px;
 }
 
@@ -61,7 +62,6 @@ table {
   padding:30px;
   font-size: 18pt;
   font-weight: 400;
-
 }
 
 .table-4 {
@@ -75,7 +75,7 @@ table {
 }
 
 figure {
-  position:relative;
+  position: relative;
   top: -200px;
 }
 
@@ -132,15 +132,131 @@ footer {
   padding-bottom:90px; 
 }
 
-
 @media screen and (min-width: 800px) {
   section {
     display: grid;
     gap: 30px;
     grid-template-columns: 1fr 1fr;
-  
   }
 }
+
+@media only screen and (max-width:800px) {
+  h1 {
+    color: var(--brown);
+    font-size: 15px;
+    margin-right: 15px;
+    text-align: right;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    font-weight: lighter;
+    margin-bottom:30px;
+  }
+  h2 {
+    color: #5C453C;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    margin-left:15px;
+    margin-top:0px;
+  
+  }
+
+  .wrapper {
+    font-size: 18px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1.5; 
+    margin-left:15px; 
+    width: 375px;
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+  h3 {
+    color:#5C453C;
+    font-size: 20px;
+    margin-left: 15px; 
+    margin-top: 15px;
+    margin-bottom:15px;
+  }
+  
+  table {
+    background-color:#5C453C;
+    width: 100%;
+    color:var(--white);
+    padding:15px;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  .table-2 {
+    position: relative;
+    top: 35px;
+  }
+  .table-3 {
+    position: relative;
+    top: 70px;
+  }
+
+  .table-4 {
+    position: relative;
+    top: 100px;
+  }
+  .table-5 {
+    position: relative;
+    top: 140px;
+  }
+
+  figure {
+    position: relative;
+    top: 180px;
+  }
+  .table-6 {
+    position: relative;
+    top: 220px;
+    left:0px;
+    
+  }
+  footer {
+    position: relative;
+    top: 260px;
+    padding-left:15px;
+    padding-top:30px;
+    padding-bottom:50px; 
+  }
+  .table_6 {
+    font-size: 14px;
+  }
+  .size {
+    text-align: right;
+    font-size: 18px;
+  }
+  
+  .price {
+    text-align: right;
+    font-size: 18px;
+  }
+  
+  .title {
+    font-size: 15pt;
+  }
+  
+  .bold {
+    font-weight:bold;
+  }
+  h4 {
+    color:#FFF;
+    font-size: 40px;
+  
+  }
+  
+  h5 {
+    color:#FFF;
+    font-size: 20px;
+    width: 200px;
+  }
+}
+
+
 
 
 
